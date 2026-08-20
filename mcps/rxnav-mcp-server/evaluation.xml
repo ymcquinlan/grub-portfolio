@@ -1,0 +1,42 @@
+<evaluation>
+  <qa_pair>
+    <question>Resolve the ingredient name "lisinopril" to its RxNorm Concept Unique Identifier (RxCUI). Answer with just the numeric RxCUI.</question>
+    <answer>29046</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the RxCUI for the ingredient "lisinopril". Then, restricting to the FDASPL source of drug-class relationships, find the FDA Established Pharmacologic Class (EPC) it belongs to. What is the class name?</question>
+    <answer>Angiotensin Converting Enzyme Inhibitor</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Search RxClass for a drug class named "ACE inhibitors, plain". What is its class ID (classId)?</question>
+    <answer>C09AA</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>National Drug Code 00069420030 maps to which RxNorm drug concept? Give the exact concept name.</question>
+    <answer>sildenafil 25 MG Oral Tablet [Viagra]</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Using the RxTerms curated dataset, what is the prescriber-friendly "display name" for RxNorm concept 198440?</question>
+    <answer>Acetaminophen (Oral Pill)</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many distinct RxNorm term types (TTYs) are currently defined in RxNorm's term type reference list?</question>
+    <answer>19</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Using RxNorm's approximate-match (fuzzy) search, find the top-ranked RxNORM-source candidate concept name for the free-text query "zocor 10 mg".</question>
+    <answer>simvastatin 10 MG [Zocor]</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Starting from the MeSH Pharmacologic Action class "Antivenins" (class ID D000997), follow its class hierarchy ancestor path all the way to the top-level root class (class ID Z1). What is the name of that root class?</question>
+    <answer>Substances and cells</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the ingredient RxCUI for "lisinopril", then find the SNOMED CT-sourced drug class of type DISPOS (Disposition) that it belongs to. What is that class's name?</question>
+    <answer>Angiotensin-converting enzyme inhibitor-containing product</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>According to RxTerms, what is the rxtermsDoseForm value for RxNorm concept 198440?</question>
+    <answer>Tab</answer>
+  </qa_pair>
+</evaluation>

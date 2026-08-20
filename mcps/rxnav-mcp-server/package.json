@@ -1,0 +1,46 @@
+{
+  "name": "rxnav-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the NLM RxNav suite of REST APIs (RxNorm, RxClass, RxTerms) — drug name normalization, RxCUI lookup, NDC mapping, related drugs, and drug class relationships.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "rxnav-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc && chmod +x dist/index.js",
+    "clean": "rm -rf dist",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "rxnav",
+    "rxnorm",
+    "rxclass",
+    "rxterms",
+    "nlm",
+    "drug",
+    "medication",
+    "ndc"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "axios": "^1.7.9",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
