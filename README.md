@@ -27,7 +27,8 @@ Every item under `skills/`, `mcps/`, and `projects/` is written to be usable by 
 
 | Name | Type | Description |
 |------|------|-------------|
-| _(add entries here)_ | | |
+| [loinc-mcp](mcps/loinc-mcp) | MCP | Read-only lookup/search of LOINC codes (lab tests and clinical observations) via the official LOINC FHIR Terminology Server |
+| [rxnav-mcp-server](mcps/rxnav-mcp-server) | MCP | Drug name normalization, RxCUI/NDC lookup, and drug classification via NLM's RxNav (RxNorm, RxClass, RxTerms) APIs — no auth required |
 
 ## License
 
